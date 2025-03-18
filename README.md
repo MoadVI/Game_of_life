@@ -8,5 +8,6 @@ pip install pygame
 pip install pyinstaller
 pyinstaller --onefile game_of_life.py
 cd Game_of_life
-python game_of_life
+python game_of_life.py
+
 ```
