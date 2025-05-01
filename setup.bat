@@ -10,6 +10,4 @@ rmdir /s /q dist
 del game_of_life.spec
 del README.md
 del game_of_life.py
-
-game_of_life.exe
 del setup.bat
