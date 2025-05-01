@@ -3,7 +3,8 @@ import sys
 import random
 import math
 
-n = int(input())
+
+n = int(input("Enter a huge number in the range of thousands:\n"))
 sqrt_n = int(math.sqrt(n))
 
 if int(sqrt_n**2) != n:
