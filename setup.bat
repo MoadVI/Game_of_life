@@ -3,5 +3,13 @@
 pip install pygame
 pip install pyinstaller
 pyinstaller --onefile game_of_life.py
-cd dist
+
+move dist\game_of_life.exe
+rmdir /s /q build
+rmdir /s /q dist
+del game_of_life.spec
+del README.md
+del game_of_life.py
+
 game_of_life.exe
+del setup.bat
